@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #40E0D0;
+}
+.first-cade{
+    background-color: #fff;
+    padding: 1.5rem;
+    /* border-radius: 1rem; */
+    min-height: 80vh;
+    width: 60vh;
+
+}
+.container{
+    padding: 5px 2px;
+}
+.tictak{
+    margin-bottom: 15px;
+    background-color: #ddddfa;
+    height: 65px;
+    text-align: center;
+}
+.h1{
+    text-align: center;
+    margin-top: 30px;
+    /* padding-top: 15px; */
+    font-size: 55px;
+}
+.table tr td {
+border: 3px solid #000000;
+}
+table{
+    border-style: none ;
+}
+
+
+table{
+    margin-top: 50px;
+    width: 350px;
+    height: 300px;
+    margin-left: 50px;
+    padding-top: 0%;
+    border-style:none;
+    border-color:#fff ;
+    background-color: #000000;
+    
+    
+}
+td{
+    text-align: center;
+    font-size: 100px;
+    
+}
+
+.a{
+     background-color:#ebad95 ;
+}
+.c{
+     background-color:#f1b9b9 ;
+}
+.b{
+     background-color:#edaae3 ;
+}
+.d{
+     background-color:#b5f3a2 ;
+}
+.f{
+     background-color:#ebeb8b ;
+}
+.g{
+     background-color:#f3bb8d ;
+}
+.h{
+     background-color:#b8dde6 ;
+}
+.i{
+     background-color:#8af1f1 ;
+}
+.j{
+     background-color:#5dcce8 ;
+}
+
+.text{
+    margin-top: 30px;
+    text-align: center;
+}
+p{
+    height: 30px;
+    width: 450px;
+    border: 2px solid #000000; 
+    padding-top: 8px; 
+    font-size: 28px;
+    font-weight: 700;
+    background-color:  #ebeb8b;
+    color:#0d5785;
+}
+
+.player{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+.first-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Second-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.btn-1{
+    font-size: 18px;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #edaae3;
+    color:#15099f;
+    border: 2px solid  #15099f;
+}
+.btn-2{
+    font-size: 18px;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #edaae3;
+    color:#15099f;
+    border: 2px solid  #15099f;
+}
+

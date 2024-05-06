@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tik Tak Toe Game</title>
+</head>
+<body>
+    <div class="first-cade">
+        <div class="container">
+            <div class="tictak">
+            <h1 class="h1">TIC TAK TOE</h1>
+        </div>
+        <div class="table" id="table">
+            <table>
+                <tr class="tr">
+                  <td class="a">O</td>
+                  <td class="b">X</td>
+                  <td class="c">O</td>
+                </tr>
+                <tr>
+                  <td class="d">X</td>
+                  <td class="f">X</td>
+                  <td class="g">X</td>
+                </tr>
+                <tr>
+                  <td class="h">O</td>
+                  <td class="i">X</td>
+                  <td class="j">O</td>
+                </tr>
+              </table>
+        </div>
+        <div class="text">
+            <p>Choose The Player</p>
+        </div>
+        <div class="player">
+            <div class="first-player">
+                <div class="icon"><i class="fa-solid fa-user"></i></div>
+                <div class="btn" id="bt1"><button class="btn-1">Player-1</button></div>
+            </div>
+            <div class="Second-player">
+                <div class="icon"><i class="fa-solid fa-user-group"></i></div>
+                <div class="btn" id="bt2"><button class="btn-2" >Player-2 </button></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    let bt1 = document.querySelector("#bt1");
+let bt2 = document.querySelector("#bt2");
+
+// bt1.addEventListener("click",function (e){
+//     window.location.href = "player-1.html";
+// })
+bt1.addEventListener("click",function (e){
+    window.location.href = "player-1.html";
+ })
+
+bt2.addEventListener("click",function (e){
+
+    window.location.href = "player-2.html";
+})
+</script>
+</body>
+</html>
